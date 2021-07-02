@@ -12,7 +12,7 @@ class LSTM(nn.Module):
         self.linear = nn.Linear(hidden_dim, output_dim)
 
     def forward(self, x):
-        _, (h_out, _) = self.lstm(x)
-        h_out = h_out.view(h_out.shape[0],1)
+        _, (h_out, _) = self.lstm(x)  # h_out是序列最后一个元素的hidden state
+        h_out = h_out.view(h_out.shape[0],-1)
         h_out = self.linear(h_out)
         return h_out

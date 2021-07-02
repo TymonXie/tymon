@@ -4,14 +4,29 @@ class Assistant():
         self.data_path = data_path
         self.model_name = model_name
 
+        # personal values
+        self._model = None
+        self._sourceData =None
+        self._trainData = None
+        self._testData = None
+        self._trainX = None
+        self._trainY = None
 
-    def data_generator(self):
+
+        self._select_model()
+        self._data_divide()
+        self._data_generator()
+
+    def _data_divide(self):
+        pass
+
+    def _data_generator(self):
         pass
 
     def model(self):
         pass
 
-    def train(self):
+    def _select_model(self):
         pass
 
     def eval(self):
