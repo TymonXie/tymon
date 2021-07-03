@@ -1,21 +1,17 @@
 class Assistant():
-    def __init__(self,data_path,model_name):
-
+    def __init__(self, data_path, model_name):
         self.data_path = data_path
         self.model_name = model_name
 
         # personal values
         self._model = None
-        self._sourceData =None
+        self._sourceData = None
+        self._parameters = None
         self._trainData = None
         self._testData = None
         self._trainX = None
         self._trainY = None
 
-
-        self._select_model()
-        self._data_divide()
-        self._data_generator()
 
     def _data_divide(self):
         pass
@@ -29,6 +25,9 @@ class Assistant():
     def _select_model(self):
         pass
 
+    def train(self):
+        pass
+
     def eval(self):
         pass
 
@@ -37,4 +36,3 @@ class Assistant():
 
     def run(self):
         pass
-
