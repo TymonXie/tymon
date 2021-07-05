@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="tymon",
-    version="0.0.2",
+    version="0.0.3",
     author="TymonXie",
     author_email="847250484@qq.com",
     description="An AI Assistant More Than a Toolkit",
