@@ -1,5 +1,6 @@
 # tymon
 An AI Assistant More Than a Toolkit
+The reason for creating framework tymon is simple. making AI more like an assistant, helping us to complete daily AI tasks we want to accomplish, rather than just a tool. I prefer it to be interactive and "human".
 
 # Installation
     pip install tymon
