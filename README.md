@@ -18,6 +18,6 @@ you will get final model in `./` and its performance image.
 ![result_image](/example/time_series/result.png)
 
 # Related Blog
-![基于tymon，无需搭建LSTM，航班人数预测](https://blog.csdn.net/tymon_xie/article/details/118501378?spm=1001.2014.3001.5502)
+[基于tymon，无需搭建LSTM，航班人数预测](https://blog.csdn.net/tymon_xie/article/details/118501378?spm=1001.2014.3001.5502)
 
 
