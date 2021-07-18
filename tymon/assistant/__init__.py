@@ -1,2 +1,2 @@
 from .assistant import Assistant
-from .time_series_assistant import TimeSeries
+from tymon.assistant.time_series.time_series_assistant import TimeSeries

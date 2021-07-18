@@ -3,26 +3,17 @@ class Assistant():
         self.data_path = data_path
         self.model_name = model_name
 
-        # personal values
-        self._model = None
-        self._sourceData = None
-        self._parameters = None
-        self._trainData = None
-        self._testData = None
-        self._trainX = None
-        self._trainY = None
+        # operators
+        self.data_operator = None
+        self.model_operator = None
 
+        # initial all operatros
+        self.initial()
 
-    def _data_divide(self):
+    def set_data_operator(self):
         pass
 
-    def _data_generator(self):
-        pass
-
-    def model(self):
-        pass
-
-    def _select_model(self):
+    def set_model_operator(self):
         pass
 
     def train(self):
@@ -31,8 +22,11 @@ class Assistant():
     def eval(self):
         pass
 
+    def train_and_eval(self):
+        pass
+
     def predict(self):
         pass
 
-    def run(self):
+    def initial(self):
         pass

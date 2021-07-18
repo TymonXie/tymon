@@ -1,2 +1,2 @@
 from .lstm import LSTM
-from .lstm import lstm_para
+from .lstm import lstm_paras

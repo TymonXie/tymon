@@ -18,7 +18,7 @@ class LSTM(nn.Module):
         h_out = self.linear(h_out)
         return h_out
 
-lstm_para = {'epoch': 700,
+lstm_paras = {'epoch': 700,
              'learning_rate': 0.001,
              'seq_length': 4,
              'n_feature': 12,
