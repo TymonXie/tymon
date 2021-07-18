@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding='gb18030',errors='ignore') as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="tymon",
-    version="0.0.3",
+    version="0.0.4",
     author="TymonXie",
     author_email="847250484@qq.com",
     description="An AI Assistant More Than a Toolkit",
