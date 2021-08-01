@@ -6,6 +6,7 @@ The reason for creating framework tymon is simple. making AI more like an assist
     pip install tymon
 # Example
 ## Timeseries Assistant
+### prediction task with LSTM
 instant a timeseries assistant object, and choose model, set datapath.  
     
     from tymon.assistant import TimeSeries
